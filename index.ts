@@ -24,6 +24,7 @@ const SHIFT = 50;
 let translation: { x: number; y: number };
 let shift: { x: number; y: number };
 
+
 const ghost = new Ghost(GhostFrame.Orange, 0, 0);
 const enemies: Ghost[] = [];
 let enemyInterval: number;
@@ -66,8 +67,8 @@ function setup() {
 
   removeInvalidBridgeDirections(level);
 
+  enemies.push(new Ghost(GhostFrame.Green));
   for (let i = 0; i < ENEMIES; i++) {
-    enemies.push(new Ghost(GhostFrame.Green));
   }
 
   const tileHeight = getTileHeight() + dy;
