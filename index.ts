@@ -24,6 +24,7 @@ const SHIFT = 50;
 let translation: { x: number; y: number };
 let shift: { x: number; y: number };
 
+
 const ghost = new Ghost(GhostFrame.Orange, 0, 0);
 const enemies: Ghost[] = [];
 let enemyInterval: number;
