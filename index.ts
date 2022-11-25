@@ -54,7 +54,6 @@ function setup() {
       enemy.moveRandomly();
     }
   }, 1000);
-
   // Green with one value
   for (let y = 0; y < SIDE_LENGTH; y++) {
     const row: Tile[] = [];
