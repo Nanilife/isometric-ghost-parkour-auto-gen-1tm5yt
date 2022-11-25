@@ -59,7 +59,7 @@ function setup() {
     const row: Tile[] = [];
     level.push(row);
     for (let x = 0; x < SIDE_LENGTH; x++) {
-      row.push(new Tile(TileFrame.Green, DecorationFrame.None));
+      row.push(new Tile(TileFrame.Snow, DecorationFrame.None));
     }
   }
   // Ends
